@@ -1,0 +1,82 @@
+{
+  "name": "skeleton",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "yarn styles:watch & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "styles": "yarn tsm src ",
+    "styles:watch": "yarn tsm src -w",
+    "eject": "react-scripts eject",
+    "storybook": "yarn styles:watch & start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "husky": {
+    "hooks": {}
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "shared-config"
+    ],
+    "rules": {
+      "additional-rule": "warn"
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/*.ts?(x)"
+        ],
+        "rules": {
+          "additional-typescript-only-rule": "warn"
+        }
+      }
+    ]
+  },
+  "dependencies": {
+    "connected-react-router": "^6.5.2",  
+    "lodash": "^4.17.15",
+    "lodash.isequal": "^4.5.0",
+    "moment": "^2.29.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "typescript": "3.5.3",
+    "wretch": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",  
+    "@types/lodash": "^4.14.138",
+    "@types/react": "16.9.1",
+    "@types/react-dom": "16.8.5",
+    "@types/react-redux": "^7.1.1",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/react-router-redux": "^5.0.18",
+    "@types/redux-logger": "^3.0.7",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "husky": "^3.0.3",
+    "jest-allure": "^0.1.1",
+    "node-sass": "^4.13.1",
+    "redux-logger": "^3.0.6",
+    "typed-scss-modules": "^0.0.11"
+  }
+}

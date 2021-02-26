@@ -1,0 +1,15 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+
+    > a {
+      margin-right: 15px;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610997114789' stop='1610997114799'>
+    <name>Prop Validation Tests</name>
+    <title>Prop Validation Tests</title>
+    <test-cases>
+        <test-case start='1610997114789' status='passed' stop='1610997114791'>
+            <name>Prop years error when not an array</name>
+            <title>Prop years error when not an array</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114791' status='passed' stop='1610997114792'>
+            <name>Prop error when years not array of 2</name>
+            <title>Prop error when years not array of 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114792' status='passed' stop='1610997114793'>
+            <name>Prop error when start date not in years defined</name>
+            <title>Prop error when start date not in years defined</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114793' status='passed' stop='1610997114794'>
+            <name>Prop error when end date not in years defined</name>
+            <title>Prop error when end date not in years defined</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114794' status='passed' stop='1610997114795'>
+            <name>No prop error when end date in years defined</name>
+            <title>No prop error when end date in years defined</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114795' status='passed' stop='1610997114796'>
+            <name>No prop error when start date in years defined</name>
+            <title>No prop error when start date in years defined</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114796' status='passed' stop='1610997114797'>
+            <name>Prop error when years start date after end</name>
+            <title>Prop error when years start date after end</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114797' status='passed' stop='1610997114798'>
+            <name>No prop error when years start date equals end</name>
+            <title>No prop error when years start date equals end</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114798' status='passed' stop='1610997114799'>
+            <name>No prop error when years start date before end</name>
+            <title>No prop error when years start date before end</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

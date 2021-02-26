@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610997114038' stop='1610997114070'>
+    <name>Time Function Utils Tests</name>
+    <title>Time Function Utils Tests</title>
+    <test-cases>
+        <test-case start='1610997114038' status='passed' stop='1610997114049'>
+            <name>Date Picked, Start Mode, Start Before End Check</name>
+            <title>Date Picked, Start Mode, Start Before End Check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114049' status='passed' stop='1610997114050'>
+            <name>Date Picked, Start Mode, Start Same As End Check</name>
+            <title>Date Picked, Start Mode, Start Same As End Check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114050' status='passed' stop='1610997114053'>
+            <name>Date Picked, Start Mode, Start After End Check, Smart Mode Enabled</name>
+            <title>Date Picked, Start Mode, Start After End Check, Smart Mode Enabled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114053' status='passed' stop='1610997114054'>
+            <name>Date Picked, Start Mode, Start After End Check, Smart Mode Disabled</name>
+            <title>Date Picked, Start Mode, Start After End Check, Smart Mode Disabled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114054' status='passed' stop='1610997114056'>
+            <name>Date Picked, Start Mode, Start After End Check (By 1 Minute), Smart Mode Disabled</name>
+            <title>Date Picked, Start Mode, Start After End Check (By 1 Minute), Smart Mode Disabled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114056' status='passed' stop='1610997114057'>
+            <name>Date Picked, Start Mode, Start Exactly End Check, Smart Mode Disabled</name>
+            <title>Date Picked, Start Mode, Start Exactly End Check, Smart Mode Disabled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114057' status='passed' stop='1610997114059'>
+            <name>Date Picked, Start Mode, Start Before End Check, Smart Mode Disabled</name>
+            <title>Date Picked, Start Mode, Start Before End Check, Smart Mode Disabled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114059' status='passed' stop='1610997114060'>
+            <name>Date Picked, End Mode, End After Start Check</name>
+            <title>Date Picked, End Mode, End After Start Check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114060' status='passed' stop='1610997114062'>
+            <name>Date Picked, End Mode, End After Start Check, Smart Mode Disabled</name>
+            <title>Date Picked, End Mode, End After Start Check, Smart Mode Disabled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114062' status='passed' stop='1610997114063'>
+            <name>Date Picked, End Mode, End Same As Start Check</name>
+            <title>Date Picked, End Mode, End Same As Start Check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114063' status='passed' stop='1610997114064'>
+            <name>Date Picked, End Mode, End Before Start Check</name>
+            <title>Date Picked, End Mode, End Before Start Check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114064' status='passed' stop='1610997114065'>
+            <name>Past Max Date Test, No Max Date</name>
+            <title>Past Max Date Test, No Max Date</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114065' status='passed' stop='1610997114065'>
+            <name>Past Max Date Test, Minute Mode, Date Past Max</name>
+            <title>Past Max Date Test, Minute Mode, Date Past Max</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114065' status='passed' stop='1610997114066'>
+            <name>Past Max Date Test, Minute Mode, Date Not Past Max</name>
+            <title>Past Max Date Test, Minute Mode, Date Not Past Max</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114066' status='passed' stop='1610997114067'>
+            <name>Past Max Date Test, Not Minute Mode, Date Not Past Max</name>
+            <title>Past Max Date Test, Not Minute Mode, Date Not Past Max</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114067' status='passed' stop='1610997114068'>
+            <name>Past Max Date Test, Not Minute Mode, Date Past Max</name>
+            <title>Past Max Date Test, Not Minute Mode, Date Past Max</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1610997114068' status='passed' stop='1610997114070'>
+            <name>Past Max Date Test, Not Minute Mode, Date Not Past Max, Hour Is Though</name>
+            <title>Past Max Date Test, Not Minute Mode, Date Not Past Max, Hour Is Though</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
